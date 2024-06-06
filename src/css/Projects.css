@@ -1,0 +1,218 @@
+#courses {
+    padding: 10px 120px;
+    position: relative;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--primary-color);
+    /* linear-gradient(45deg, #fcdcdf, #f498c2, #c997c6); */
+}
+
+.card {
+    position: relative;
+    margin: 15px;
+    width: 400px;
+    height: 300px;
+    border: none;
+    border-radius: 10 px;
+    padding: 0px;
+    margin-bottom: 1px;
+    overflow: hidden;
+   
+}
+
+.card .img {
+
+    align-items: center;
+    width: 320px;
+    height: 135px;
+    border: 30px black;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    object-fit: cover;
+}
+
+.card h2 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    color: #fff;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+}
+
+.card-list div {
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+}
+.card-list .main-card{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card-list .main-card a {
+        position: relative;
+        margin-top: 10px;
+        padding: 10px 20px;
+        color: #fff;
+        background:linear-gradient(225deg,#2739b6,#216fc8,#255dc4,#255dc4,#2739b6);
+        color: #ffff;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+        transition: 0.5s;
+        width: 50%;
+    
+    width: 33%;
+}
+.card-list {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+
+.layer {
+    width: 400px;
+    height: 250px;
+    /* background:linear-gradient(rgba(0,0,0,0.6),#615ede); */
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+    background: #000;
+    backdrop-filter: blur(7px);
+}
+
+ .ill{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+
+}
+.layer h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.layer a img {
+    margin-top: 20px;
+    color: rgb(20, 20, 60);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 50px;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.card:hover img {
+    transform: scale(1.0);
+    transition: transform 0.5s;
+     
+}
+
+.card:hover .layer {
+    height: 0%;
+   
+}
+
+.card:hover{
+    scale: 1.1;
+    box-shadow: 1px 2px 3px .3px lightgrey;
+}
+
+.contain {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contain .card-list .card {
+    display: inline-block;
+}
+ 
+.sub-title {
+    background:linear-gradient(to left,#216fc8, #9064e6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'PT Serif', serif;
+    color: transparent;
+    font-weight: 700;
+    font-size: 50px;
+}
+table{
+    /* border: 1px solid grey; */
+    color:#fff;
+    width: 50%;
+    border-collapse: collapse;
+    border: #fff;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+}
+    
+tr:nth-child(even) { 
+    color: #fff;
+   background:linear-gradient(225deg,#2739b6,#216fc8,#255dc4,#255dc4,#2739b6);
+} 
+@media  screen and (max-width:500px) {
+    #courses{
+        height: 120vh;
+        margin: 0;
+        padding:10px;
+    }
+    .contain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .card-list {
+        padding: 10px;
+       
+    }
+}
+@media (max-width: 420px){
+  
+    .card-list{
+       margin: 0 ;
+       padding: 0;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+    }
+    .card{
+        width: 300px;
+        margin: 0;
+       
+    }
+    .card .img{
+        width: 300px;
+    }
+  }

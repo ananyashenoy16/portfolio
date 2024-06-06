@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 41vmin;
+  pointer-events: none;
+}
+
+body {
+  --sb-track-color: #255dc4;
+  --sb-thumb-color: #000000;
+  --sb-size: 13px;
+  cursor: url(./Images/cur116.cur),auto;
+  font-family: "Volkhov", serif;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 2px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 2px;
+  border: 2px solid #255dc4;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+                    
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.dark-theme{
+  --primary-color:#06141c;
+  --secondary-color:#fff;
+}
+
+/* .light-theme{
+  --secondary-color:#000;
+  --primary-color:#3f3c8e;
+} */

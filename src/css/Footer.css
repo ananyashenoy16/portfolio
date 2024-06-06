@@ -1,0 +1,50 @@
+/* .mysocial{
+    background-color: black;
+    width: 100%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.social{
+    justify-content: center;
+    align-items: center;
+  
+    background: transparent;
+    border:none;
+    outline:none; */
+    /* border:2px solid rgba(255,255,255,.2); */
+    /* box-shadow:5px 5px 10px 8px rgba(103, 4, 169, 0.5);
+    border-radius:40px;
+    color:#fff;
+    margin: 20px;
+    padding:20px 45px 20px 20px;
+}
+.all{
+    padding: 50px;
+    display: flex;
+    
+}
+.all img{
+     margin: 10px;
+   
+}
+img .github1{
+  width: 48px;
+  height: 70px;
+}
+.all img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    overflow: hidden;
+    padding: 0;
+    /* border:5px solid  #fff; */
+/* }
+
+@media screen and (max-width:500px){
+    .social{
+        padding: 10px;
+    }
+}  */

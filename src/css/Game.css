@@ -1,0 +1,38 @@
+.game-main{
+    height: 500px;
+    display: flex;
+    padding: 30px;
+  
+}
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background: var(--primary-color);
+    
+}
+hr{
+    background:linear-gradient(to right, #2739b6, #9064e6);
+}
+div button{
+    width:200px;
+    height: 45px;
+    background:linear-gradient(to right, #2739b6, #9064e6);;
+    outline: none;
+    
+    border:none;
+    cursor:pointer;
+    border-radius:40px;
+    font-weight: 600;
+    font-size: 18px;
+    color:#fff;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.playbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

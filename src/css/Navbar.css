@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',serif;
+    box-sizing: border-box;
+ }
+ .navbar{
+   position: relative;
+   color: aliceblue;
+    height: 100px;
+    position: relative;
+    background:var(--primary-color);
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    transition: 0.2s;
+ }
+ /* .navbar:hover{
+   
+   border-bottom: 2px solid #04009a;
+ } */
+ .logo{
+ width:100px;
+ height: 100px;
+ margin: 10px;
+ margin-left:50px ;
+ }
+ 
+ .container{
+    position: relative;
+    padding: 0;
+ }
+ nav ul li{
+    
+    display: inline-block;
+    list-style: none;
+    margin:20px 30px;
+    
+    text-decoration: none;
+    
+    position: relative;
+ }
+ nav ul li a{
+   color:var(--secondary-color);
+   font-size: 20px;
+   text-decoration: none;
+ }
+.icons{
+   display: none;
+}
+
+
+.navbar ul .icons{
+   display: none;
+}
+
+nav ul li a::after{
+   content:'';
+   width:0;
+   height:3px;
+   background: linear-gradient(to right, #2739b6, #9064e6);
+   position: absolute;
+   left: 0;
+   bottom: -6px;
+   transition: 0.5s;
+}
+nav ul li a:hover::after{
+   width:100%;
+}
+/* nav ul li a:active{
+   width: 100%;
+} */
+/* #header{
+   width: 100%;
+   position: fixed;
+   top: 0;
+} */
+.sun{
+   height: 50px;
+   
+}
+ /* ---------------Media Queryyyyyyy----------- */
+ @media screen and  (max-width:500px) {
+   .container{
+      display: flex;
+      flex-direction: column;
+   }
+   .icons{
+      padding: 0;
+      margin: 0;
+     display: block;
+      font-size: 20px;
+   }
+   
+   .logo{
+      width:100px;
+      margin-left: 15px;
+     }
+   
+   
+   .navbar ul li{
+      display: none;
+   }
+  .Link{
+   text-decoration: none;
+  }
+ /* ----------------sidemenu------------- */
+
+.sidebar{
+
+   position: relative;
+  display: block;
+}
+.sidebar ul{
+  position: fixed;
+  background: hsl(242, 100%, 30%,0.9);
+  top: 0px;
+  right:0;
+  width: 200px;
+  height: 500px;
+  padding-top: 0px;
+  z-index: 999;
+  transition:right 0.5s;
+  
+}
+.sidebar ul li{
+   text-align: center;
+   color: black;
+   padding: 40px;
+   margin: 0;
+   padding-top: 30px;
+   display: block;
+   font-size: 25px;
+}
+.ham{
+   margin-right: 20px;
+   width:20px;
+   height:20px;
+}
+
+.navbar ul li .icons .ham{
+   
+   margin-top: 10px;
+}
+.sidebar .icons .close{
+  padding: 10px;
+  margin-right:170px;
+  top: 0;
+  right: 0;
+}
+ }
