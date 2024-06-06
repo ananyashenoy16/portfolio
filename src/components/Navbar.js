@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from "react";
-import Name from "../Images/name2.gif";
+import Name from "../Images/ashenoy.gif";
 import "../css/Navbar.css"; 
 import ham from "../svg/ham1.svg";
 import close from "../svg/close.svg";
