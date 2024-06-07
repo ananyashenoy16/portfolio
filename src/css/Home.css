@@ -55,7 +55,8 @@
  .cv{
    font-size: 20px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   padding: 15px;
+   padding: 12px;
+   height: 60px;
    width: 150px;
    /* border: 1px solid #fff; */
    font-weight: 500;

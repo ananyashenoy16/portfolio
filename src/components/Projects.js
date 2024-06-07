@@ -28,7 +28,7 @@ function Projects(){
                 <div class="card" data-aos="flip-right">
                 
                     <h2>Connecto~Social Media</h2>
-                    <span class="material-symbols-outlined">open_in_new</span>
+                    {/* <span class="material-symbols-outlined">open_in_new</span> */}
                   
                         <img src={connecto} alt=""class="ill"></img>
                     
