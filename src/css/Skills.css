@@ -27,9 +27,9 @@
     height: 380px;
     border:none;
     outline: none;
-    background: var(--primary-color);
+    background: transparent;
     border-radius: 120px 10px 100px 10px;
-    box-shadow:  3px 0px 2px 1px hsl(232, 65%, 43%), 0px 7px 5px 3px hsl(260, 72%, 65%);
+    box-shadow:  3px 0px 20px -9px hsl(212, 72%, 46%), 0px 7px 30px -9px hsl(260, 72%, 65%);
     /* box-shadow:5px 5px 10px 7px,; */
     align-items: center;
     justify-content: center;

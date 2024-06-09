@@ -37,12 +37,15 @@ function Home() {
              {/* <img src={hello} alt=""></img> */}
           </div>
         </div>
-        <div data-aos="zoom-in" className="header-text">
+        <div  className="header-text">
+        {/* data-aos="zoom-in" */}
           <h1>
-            Hello, I am <br />
-            <span contentEditable="true">Ananya K</span>
+            Hey there!👋 <br />
+            <span contentEditable="true">I'm Ananya K</span>
           </h1>
+         
           <a href="../Images/4CB21CS013.pdf" download="Ananya.pdf">
+          
             <button className="cv">Resume</button>
           </a>
           <button className="cv">Contact me</button>

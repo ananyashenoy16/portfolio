@@ -3,7 +3,7 @@ import food from "../Images/foodd.png";
 import '../css/Projects.css';
 import share from '../Images/share.png'
 import play from '../Images/connecto.png'
-import connecto from '../Images/conecto.png'
+import connecto from '../Images/connecto1.png'
 import foodd from '../Images/cafe.png'
 import music from '../Images/music.png'
 function Projects(){

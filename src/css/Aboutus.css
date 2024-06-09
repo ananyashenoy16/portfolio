@@ -20,7 +20,7 @@
    position: relative;
    width: 400px;
    height: 400px;
-   background:rgba(2, 6, 52, 0.5);
+   background:var(--primary-color);
    border-radius: 50%;
    overflow: hidden;
  }
@@ -45,7 +45,7 @@
    content: '';
    position: absolute;
    inset:6px;
-   background: #000;
+   background: #121c21;
    border-radius: 50%;
    z-index: 1;
  }
@@ -215,7 +215,7 @@
  }
  @media (max-width:500px){
    #about{
-      height: 100vh;
+      height: 75vh;
       
       padding: 30px;
    }

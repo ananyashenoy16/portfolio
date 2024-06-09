@@ -1,9 +1,11 @@
 import React from 'react';
-
+import gif from '../Images/ashenoy.gif'
+import '../css/Game.css'
 function Loading() {
   return (
     <div className="loading">
-      <h2>Loading...</h2>
+      <center>
+      <img src={gif} alt="" class="load"></img></center>
     </div>
   );
 }

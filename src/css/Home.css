@@ -24,7 +24,7 @@
     height:95vh;
 }
 .header-text{
-    bottom: 60px;
+    bottom: 80px;
     position: absolute;
     margin-left: 5%;
     margin-top: 0px;
@@ -34,24 +34,28 @@
 
  .header-text h1{
    text-shadow:0 0 10px #04009A;
-    font-size: 50px;
+    font-size: 35px;
     color: #fff;
-    margin-left: 5px;
+    margin-left: 8px;
+    /* text-align: left; */
+    /* padding-left: 30px; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
  } 
  .header-text span{
     margin-left: 0px;
     font-size: 90px;
-    padding-left: 50px;
+    padding-left: 9px;
     color: #0e3742;
-    text-transform: uppercase;
+    text-transform:capitalize;
     /* color:#6704a8; */
-    letter-spacing: 10px;
+    letter-spacing: 2px;
     outline: none;
     animation: animate 5s linear infinite;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
  }
+
+
  .cv{
    font-size: 20px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

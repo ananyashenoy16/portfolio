@@ -47,10 +47,12 @@ export const Contact = () => {
     </div> */}
     <img src={image}></img>
         <div className="ct" data-aos="flip-left">
-          
-      <h1>Drop a Message! </h1>
+        <h1>Drop a Message! </h1>
+      
       <div className="contact">
+      
         <div class="cdiv">
+       
         <form ref={form} onSubmit={sendEmail}>
           {/* https://formspree.io/f/mvojnweq */}
             <div class="input-box">
@@ -86,12 +88,16 @@ export const Contact = () => {
             </div>
              {
               !loader?
-              <button class="btn" value="submit" id="but">
-              Send
-            </button>
-            :
-            <img src={load} alt="" class="load"/>
-             }
+               <button class="btn" value="submit" id="but">
+               Send
+             </button>
+             :
+            
+            // <img src={load} alt="" class="load"/>
+            <div class="spinner">
+                <div class="spinner1"></div>
+            </div>
+              } 
            
           
           </form>
