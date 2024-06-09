@@ -1,6 +1,6 @@
 #about{
     background:var(--primary-color);
-    height: 100vh;
+    height: 88vh;
     top: 0;
     padding: 30px;
     color:#a59daa;
@@ -215,7 +215,7 @@
  }
  @media (max-width:500px){
    #about{
-      height: 75vh;
+      height: 100vh;
       
       padding: 30px;
    }

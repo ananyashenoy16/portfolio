@@ -10,7 +10,7 @@ import Game from "./Game";
 import Spline from "@splinetool/react-spline";
 import Loading from './Loading';
 import hello from '../Images/roomgirl.png'
-
+import Follow from './Follow';
 function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -52,9 +52,10 @@ function Home() {
         </div>
       </div>
       <Aboutus />
-      <Game />
+      <Game/>
       <Skills />
       <Projects />
+       <Follow />
       <Contact />
       <div className="footer">
         <p>
