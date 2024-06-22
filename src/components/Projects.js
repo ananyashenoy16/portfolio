@@ -6,6 +6,8 @@ import play from '../Images/connecto.png'
 import connecto from '../Images/connecto1.png'
 import foodd from '../Images/cafe.png'
 import music from '../Images/music.png'
+import flutter from '../Images/flutter.png'
+import quiz from '../Images/Mobile.png'
 function Projects(){
     return (
         <div id="courses">
@@ -33,7 +35,7 @@ function Projects(){
                         <img src={connecto} alt=""class="ill"></img>
                     
                     </div>
-                    <a href="https://college-website-gray.vercel.app/" target="_blank">View </a>
+                    <a href="https://github.com/Mini-Project2024/Connecto" target="_blank">View </a>
                     
                 </div>
                 <div class="main-card">
@@ -48,6 +50,30 @@ function Projects(){
                     <a href="https://spotifyclone-pi-ecru.vercel.app/" target="_blank">View </a>
                    
                     </div>
+                    <div class="main-card">
+                <div class="card" data-aos="flip-right">
+                
+                    <h2>Expense Tracker App</h2>
+                    {/* <span class="material-symbols-outlined">open_in_new</span> */}
+                  
+                        <img src={flutter} alt=""class="ill"></img>
+                    
+                    </div>
+                    <a href="https://github.com/ananyashenoy16/expense_tracker" target="_blank">View </a>
+                    
+                </div>
+                <div class="main-card">
+                <div class="card" data-aos="flip-right">
+                
+                    <h2>Quiz App</h2>
+                    {/* <span class="material-symbols-outlined">open_in_new</span> */}
+                  
+                        <img src={quiz} alt=""class="ill"></img>
+                    
+                    </div>
+                    <a href="https://github.com/ananyashenoy16/quiz" target="_blank">View </a>
+                    
+                </div>
                 {/* <div class="card"> <img src={pj } alt="" class="img"/>
                     <h2>Artificial Intelligence and Machine Learning</h2>
                     <div class="layer">

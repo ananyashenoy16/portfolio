@@ -11,6 +11,7 @@ import Spline from "@splinetool/react-spline";
 import Loading from './Loading';
 import hello from '../Images/roomgirl.png'
 import Follow from './Follow';
+import { Link,useLocation } from "react-router-dom";
 function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -48,7 +49,7 @@ function Home() {
           
             <button className="cv">Resume</button>
           </a>
-          <button className="cv">Contact me</button>
+          <Link to ='/contact'><button className="cv">Contact me</button></Link>
         </div>
       </div>
       <Aboutus />
