@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import character from "../Images/girl3.jpg";
+import character from "../Images/girl4.png";
 import "../css/Home.css";
 import Aboutus from "./Aboutus";
 import Contact from "./Contact";
@@ -56,7 +56,7 @@ function Home() {
       <Game/>
       <Skills />
       <Projects />
-       <Follow />
+      
       <Contact />
       <div className="footer">
         <p>

@@ -1,32 +1,33 @@
 .game-main{
     height: 500px;
     display: flex;
-    padding: 50px;
-   
-    
+
+    background: var(--primary-color);
 }
 .font{
     color: transparent;
-    padding: 40px;
-    background:linear-gradient(55deg,#216fc8, #9064e6);
-    -webkit-background-clip: text;
+    padding: 25px;
+     background: #216fc8;
+     -webkit-background-clip: text;
     font-size: 40px;
   }
   .contact-social a{
     cursor: pointer;
     width: 100px;
-    height: 50px;
+    height: 70px;
   }
   .contact-social a:hover .font{
+    background:linear-gradient(55deg,#216fc8, #9064e6);
+    -webkit-background-clip: text;
     transform: scale(1.3);
     transition: .5s;
 }
 .contact-social{
     
-    width: 500px;
-    background: #121c21;
-    padding: 20px;
-    box-shadow: 9px 9px 40px  -5px #7667b7;
+    width: 350px;
+   
+    padding: 0px;
+    /* box-shadow: 9px 9px 40px  -5px #7667b7; */
     border-radius: 10px;
 }
 
@@ -36,7 +37,8 @@
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    height:50vh;
+   
+    padding: 0;
 }
 .game{
     display: flex;
@@ -83,3 +85,16 @@ div button{
     align-items: center;
     background-color:var(--primary-color);
 }
+@media (max-width:500px){
+    .game-main{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        height: 20vh;
+    justify-content: center;
+    }
+    .game-main img{
+        width: 300px;
+        height: 300px;
+    }
+    }

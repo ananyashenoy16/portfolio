@@ -194,8 +194,27 @@ tr:nth-child(even) {
     
     }
     .card-list {
+        height: 150vh;
         padding: 10px;
+        flex-direction: column;
+        flex-wrap: nowrap;
        
+    }
+    .card-list .main-card{
+        height: 200px;
+        width: 90px;
+        
+    }
+    .card .img{
+        width: 100px;
+    }
+    .ill{
+        width: 250px;
+        height: 130px;
+        object-fit: cover;
+    }
+    .card-list .main-card a{
+        width: 100px;
     }
 }
 @media (max-width: 420px){
@@ -209,7 +228,7 @@ tr:nth-child(even) {
        justify-content: space-evenly;
     }
     .card{
-        width: 300px;
+        width: 200px;
         margin: 0;
        
     }

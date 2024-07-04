@@ -115,7 +115,7 @@ textarea::placeholder{
 /* --------------------------social------------------------- */
 .mysocial{
     z-index: 99;
-    background-color: black;
+    background-color: var(--primary-color);
     width: 25%;
     right: 0;
     display: flex;
@@ -243,20 +243,22 @@ textarea::placeholder{
     .CPage{
         height: 125vh;
         width: 100%;
-        background: black;
+        background: var(--primary-color);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
          padding: 10px;
     }
+    
     .ct{
-       padding-bottom: 5px;
+       padding: 10px 0 0 0;
         margin: 40px ;
        width: 350px; 
        height: 530px;
     }
     .cdiv{
+        padding: 10px 25px 30px ;
         width: 350px;
     }
     textarea

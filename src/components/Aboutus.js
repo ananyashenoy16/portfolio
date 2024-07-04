@@ -1,5 +1,5 @@
 import myimage from "../Images/picture2.jpg";
-
+import Follow from './Follow'
 import "../css/Aboutus.css";
 
 function Aboutus() {
@@ -30,7 +30,8 @@ Seeking a challenging  role in a supportive organization that values technical
 expertise. Eager to leverage my skills to contribute to process optimization and innovation.
 
             My hobbies are Digital illustration and Mandala Arts.</p>
-            <br/>
+         
+            <Follow />
             {/* <div class="education" data-aos="zoom-out">
                 <h1>Education</h1>
               <ul>
@@ -54,7 +55,7 @@ expertise. Eager to leverage my skills to contribute to process optimization and
 
             </div> */}
             </div>
-       
+            
       </div>
     </div>
   );
