@@ -23,7 +23,7 @@ function Aboutus() {
           <h1 class="subtitle">About <span> Me</span></h1>
           <p>
             Hello World!<br/>
-             I am Ananya Shenoy,an Aspiring Full Stack Web Deveoloper.I am currently studying in 3rd Year
+             I am Ananya Shenoy,an Aspiring Full Stack Web Developer.I am currently studying in 3rd Year
             Computer Science and Engineering.I believe that <span> 'You can
             achieve Everything with Hardwork'</span> A Disciplined  student with a passion for continuous learning and improvement.
 Seeking a challenging  role in a supportive organization that values technical
