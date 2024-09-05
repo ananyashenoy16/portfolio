@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from "react";
 import Name from "../Images/ashenoy.gif";
 import "../css/Navbar.css"; 
+
 import ham from "../svg/ham1.svg";
 import close from "../svg/close.svg";
 import { Link,useLocation } from "react-router-dom";
@@ -71,6 +72,7 @@ function Navbar() {
                :
                <li><Link to ='/contact'>Contact</Link></li>
           }
+         
           </ul>
           <div class="icons" onClick={() => hamburger(true)}>
               <img src={ham} alt="" class="ham"></img>

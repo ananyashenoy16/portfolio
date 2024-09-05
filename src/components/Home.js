@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { inject } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react"
 import character from "../Images/girl4.png";
 import "../css/Home.css";
 import Aboutus from "./Aboutus";
@@ -14,7 +14,6 @@ import hello from '../Images/roomgirl.png'
 import Follow from './Follow';
 import { Link,useLocation } from "react-router-dom";
 function Home() {
-  inject();
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -54,6 +53,7 @@ function Home() {
           <Link to ='/contact'><button className="cv">Contact me</button></Link>
         </div>
       </div>
+      <li><Analytics/></li>
       <Aboutus />
       <Game/>
       <Skills />
