@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-
+import { Analytics } from '@vercel/analytics/react';
 import Aboutus from './components/Aboutus';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
@@ -41,6 +41,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      <Analytics />
     </div>
   );
 }

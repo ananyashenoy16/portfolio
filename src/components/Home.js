@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Analytics } from "@vercel/analytics/react"
+
 import character from "../Images/girl4.png";
 import "../css/Home.css";
 import Aboutus from "./Aboutus";
@@ -53,7 +53,7 @@ function Home() {
           <Link to ='/contact'><button className="cv">Contact me</button></Link>
         </div>
       </div>
-      <li><Analytics/></li>
+      
       <Aboutus />
       <Game/>
       <Skills />
