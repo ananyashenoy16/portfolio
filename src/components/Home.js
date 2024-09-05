@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { inject } from "@vercel/analytics/react"
 import character from "../Images/girl4.png";
 import "../css/Home.css";
 import Aboutus from "./Aboutus";
@@ -13,6 +14,7 @@ import hello from '../Images/roomgirl.png'
 import Follow from './Follow';
 import { Link,useLocation } from "react-router-dom";
 function Home() {
+  inject();
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
