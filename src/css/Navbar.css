@@ -115,7 +115,7 @@ nav ul li a:hover::after{
 }
 .sidebar ul{
   position: fixed;
-  background: hsl(242, 100%, 30%,0.9);
+  background:linear-gradient(to right, #2739b6, #9064e6) ;
   top: 0px;
   right:0;
   width: 200px;
